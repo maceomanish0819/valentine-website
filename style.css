@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7d7e4;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container{
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1{
+    color: #E55451;
+    margin-bottom: 20px;
+
+}
+
+.btn-group button {
+    padding: 10px  20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s;
+}
+
+#yesButton {
+    background-color: #4caf50;
+    color: white;
+}
+
+#noButton{
+    background-color:#f44336;
+    color: white;
+}
+
+#yesButton:hover{
+    transform: scale(1.1);
+}
+
+#noButton:hover{
+    transform: scale(1.1);
+}
